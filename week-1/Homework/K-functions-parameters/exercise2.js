@@ -1,5 +1,9 @@
 // Declare your function first
 
-var result = divide(3, 4);
+function divide(a,b){//declaro funcion que recibe dos parametros a y b
+    return a/b;//realizo division a/b y devuelvo valor
+}
 
-console.log(result);
+var result = divide(3, 4);//llamo funcion con valor de parametro 3 y 4
+
+console.log(result);//imprimo resultado
