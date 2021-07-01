@@ -2,7 +2,7 @@
 
 //declaro variable nombre y nombreLongitud
 var nombre = "Jesús"; //agrego el valor de mi nombre
-var nombreLongitud = nombre.length;  //utilizo la funcion length para saber la cantidad de caracteres de mi nombre
+var nombreLongitud = nombre.length;  //utilizo la funcion length para saber la cantidad de caracteres de mi nombre y agrego ese valor a la variable nombreLongitud
 
 // declaro la variable message
 
