@@ -35,8 +35,10 @@ const startingValue = 2
 let badCode = format(multiply(add(startingValue,10),2));
 
 /* BETTER PRACTICE */
-
-let goodCode = "£24";
+const step1 = add(startingValue,10);
+const step2 = multiply(step1,2);
+const step3 = format(step2);
+let goodCode = step3;
 
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
