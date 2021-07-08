@@ -5,11 +5,13 @@
 - You should use a while loop
 
 */
-
 let n = 10;
-
-function sumTillNum(num){
-	//your code here
+let sumaProgresiva = 0;
+function sumTillNum(num) {
+  while (num > 0) {
+    sumaProgresiva += num;
+    num = num - 1;
+  }
+  return sumaProgresiva;
 }
-
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
