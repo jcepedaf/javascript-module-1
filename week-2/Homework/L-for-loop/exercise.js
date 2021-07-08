@@ -7,9 +7,13 @@
 */
 
 let n = 10;
+let sumaProgresiva = 0;
 
 function sumTillNum(num){
-	//your code here
+	for(let i=n; i>0 ; i--){
+		sumaProgresiva += i;
+	}
+	return sumaProgresiva;
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
