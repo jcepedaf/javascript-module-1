@@ -4,6 +4,7 @@
 */
 
 // write your code here
+let findLongNameThatStartsWithA = (arr) => arr.find(names => (names[0] == "A" || names[0] == "a") && names.length > 7);
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
