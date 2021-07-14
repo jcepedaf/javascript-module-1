@@ -17,6 +17,6 @@ function magician(yourFunc) {
 }
 
 const pasarMayusculas = (nombres) =>
-  nombres.sort().map((name) => name.toUpperCase());
+  nombres.map((name) => name.toUpperCase());
 
 console.log(magician(pasarMayusculas));
