@@ -3,3 +3,7 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+let multiplicarPorCien = numbers.map(arr => arr*100);
+
+console.log(multiplicarPorCien);
+
